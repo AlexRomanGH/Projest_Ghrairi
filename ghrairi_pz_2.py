@@ -4,6 +4,7 @@ try:
     num = int(input("Введите двузначное число: "))
 except ValueError:
     print("Это не число")
+    
 try:
     summa = num // 10 + num % 10
     proz = num // 10 * num % 10
