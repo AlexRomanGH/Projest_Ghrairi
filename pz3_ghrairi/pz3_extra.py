@@ -2,12 +2,13 @@
 a = int(input())
 b = int(input())
 
-sum = a + base
+sum = a * b
 
-if sum % 5 == 0:
-    sum += 1
+if sum < 0:
+    sum *= 8
 else:
-    sum -= 2
+    sum *= 1.5
+    
     
 print(sum)
 
